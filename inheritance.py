@@ -90,4 +90,18 @@ p1.cooking()
 p2.singing()
 p2.cooking()
 
+# Examples 
+
+class vehicle:
+    def start(self):
+        print("Vehicle is Started")
+
+    def stop(self):
+        print("Vehicle has Stopped")
+
+class car(vehicle):
+    pass
+c=car()
+c.start()
+c.stop()
 
